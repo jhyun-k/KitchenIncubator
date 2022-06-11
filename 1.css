@@ -1,0 +1,35 @@
+.inner{width: 1280px; margin: auto;}
+.wrap{padding-top: 20px; width: 1280px; margin: auto;}
+
+.header{border-bottom: 1px solid black;}
+
+.logo{float: left; position: relative;}
+.wrap .logo a{background: url(/img/ss.jpeg) no-repeat;background-size: 175px 60px; display: inline-block; width: 246px; height: 60px; text-indent: -9999px; font-size: 0;}
+
+.wrap .util{display: block;}
+.wrap .util ul{float: right; }
+.wrap .util ul>li{float: left; margin-left: 20px;text-align: center;}
+.wrap .util ul>li:nth-child(1){color: rgb(1, 105, 184);;}
+.wrap .util ul>li:nth-child(2){color: #F5A623;;}
+.wrap .util ul>li:nth-child(3){color: #F5A623;;}
+
+.menu{display: block; margin-top: 20px; position: absolute; left: 530px; top: 41px; } 
+.menu>ul{float: right; height: 30px; font-size: 23px; font-weight: 700; text-align: left; line-height: 30px;}
+.menu>ul>li{float: left; }
+.menu>ul>li>a{padding: 15px 0 20px 10px;padding-left: 40px;}
+
+
+.main{position: relative;}
+.main::after{content: ''; display: block; height: 4px; width: 0px; background-color: black; position: absolute;left: 50%; top: 55px; transform: translateX(-30%); }
+.dep1:hover>a::after{width: 100px; transition: width .45s;}
+
+
+
+.dep2>li{padding-top: 10px;font-size: 19px; font-weight: 700; text-align: justify; padding-left: 40px;}
+.dep2{padding-top: 10px; font-weight: 300; text-align: justify;background-color: transparent;height: 200px; display: none;padding-right: 20px; color: #fff;}
+
+.dep1:hover>.dep2{display: block;;}
+
+.wrapper{margin: auto;}
+.wawa{background: url(/img/skin.jpg) no-repeat;background-size: contain; display: block; width: 1280px; height: 609px;text-align: center;margin-top: 20px;}
+
